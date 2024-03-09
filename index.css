@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(BGOK.jpg);
+    background-size: cover;
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.head{
+    display: 
+}
+.ok{
+    font-size: 120px;
+    color: white;
+    display: inline-block;
+    text-shadow: 2px 2px  rgb(226, 199, 47);
+}
+.bet{
+    font-size: 50px;
+    color:rgb(226, 199, 47);
+    display: inline-block;
+
+}
+#counter{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px  rgb(226, 199, 47);
+    font-size: 40px;
+}
+#btn{
+    width: 300px;
+    height: 300px;
+    font-size: 200px;
+    color:white;
+    border-radius:50%;
+    border: none;
+    background-color: rgb(226, 199, 47);
+    border:2px solid black;
+}
+.reset{
+    display: inline-block;
+    width: 120px;
+    height:40px;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    border:none;
+    background-color: rgb(2, 2, 10);
+    border-radius: 15px;
+    border: 1px solid  rgb(226, 199, 47);
+}
+.ptc{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px  rgb(226, 199, 47);
+    margin-top: 30px;
+}
+#nameinput{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+
+}
+#bidinput{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.add{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(2, 2, 10);
+    color: white;
+    border: 1px solid white;
+    border: 1px solid  rgb(226, 199, 47);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.container {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+  }
+#nameInput{
+    display: inline-block;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid  rgb(226, 199, 47);
+}
+#bidInput{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid  rgb(226, 199, 47);
+}
+#bidList{
+    color:white ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OK</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="heading">
+    <div>
+        <div class="ok">
+            OK
+        </div>
+        <div class="bet">
+            BET
+        </div>
+    </div>
+        <div>
+            <input id="counter" type="text" value="0" readonly>
+        </div>
+        <div>
+        <button onclick="increment()" id="btn">+</button>
+        </div>
+        <div class="rst">
+            <button onclick="reset()" class="reset">Reset</button>
+            <div id="winner"></div>
+        </div>
+        <div class="ptc">
+            ADD PARTICIPANTS
+        </div>
+        <div class="container">
+            <input type="text" id="nameInput" placeholder="Enter Name">
+            <input type="number" id="bidInput" placeholder="Enter Bid">
+            <button onclick="addBid()" class="add">Add</button>
+            <ul id="bidList"></ul>
+          </div>
+    </div>
+    <p style="color: white;">Created by APURVA HARSH</p>
+    <script src="script.js"></script>
+</body>
+</html>
